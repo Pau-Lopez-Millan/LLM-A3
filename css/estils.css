@@ -138,6 +138,46 @@ body {
     text-decoration: underline !important;
 }
 
+#requadre3 {
+    font-family: Georgia, "Times New Roman", serif;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1000px; 
+    background-color: white; 
+    padding: 20px 40px;
+    box-shadow: 0 0 15px black;
+    margin-bottom: 0;
+}
+
+#requadre3 header {
+    background-color: #4a4a4a; 
+    padding: 10px 0;
+    text-align: center;
+    margin-top: -20px;
+    margin-left: -40px;
+    margin-right: -40px;
+    margin-bottom: 15px;
+}
+
+#requadre3 header img {
+    display: block;
+    margin: 0 auto;
+    max-height: 60px;
+    width: auto;
+}
+
+#requadre3 ul {
+    margin-bottom: 15px;
+    padding-left: 20px;
+    margin-top: 5px;
+}
+
+#requadre3 li {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin-bottom: 5px;
+    font-size: 0.95em;
+}
+
 h1 {
     font-family: Georgia, "Times New Roman", serif;
     color: #006994;
@@ -153,6 +193,17 @@ h2 {
     font-size: 1.2em;
     margin-top: 25px;
     margin-bottom: 10px;
+}
+
+.subtitol{
+    font-family: Georgia, "Times New Roman", serif;
+    color: #006994;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    padding-left: 35px;
+    background: url('../img/icono-cine.png') left no-repeat;
 }
 
 .navegacio {
@@ -193,6 +244,7 @@ img {
     max-width: 125px;
     height: auto;
 }
+
 #data-publicacio {
     display: flex;
     justify-content: space-between;
@@ -237,6 +289,7 @@ a:hover {
 .enllaçat li {
   list-style-type: circle !important;
   margin-bottom: 1px !important;
+  margin-left: 40px!important;
   padding: 0;
   line-height: 0.5 !important;
 }
@@ -250,6 +303,38 @@ a:hover {
 
 .enllaçat a:hover {
   text-decoration: underline;
+}
+
+.enllaç-text {
+  color: #ff9900;
+  white-space: nowrap;
+  display: inline !important;
+}
+
+.arc li{
+  list-style-type: decimal !important;
+  margin-bottom: 15px !important;
+  margin-left: 60px!important;
+  padding: 0;
+  line-height: 0.5 !important;
+  margin-left: 20px;
+}
+
+.layout-principal {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.columna-text {
+  flex: 0 0 300px;
+}
+
+.columna-imatges img {
+  width: 100%;
+  max-width: 650px;
+  height: auto;
+  display: block;
 }
 
 footer {
@@ -267,4 +352,3 @@ footer img {
     height: 50px;
     width: auto;
 }
-
