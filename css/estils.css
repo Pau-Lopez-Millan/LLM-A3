@@ -113,13 +113,13 @@ body {
     margin-bottom: 15px;
     padding-left: 20px;
     margin-top: 5px;
+    list-style-type: none !important;
 }
 
 #requadre2 li {
     font-family: Georgia, "Times New Roman", Times, serif;
     margin-bottom: 5px;
     font-size: 0.95em;
-    list-style-type: none !important;
 }
 .requadre-més{
     background-color: #4a4a4a; 
@@ -320,6 +320,7 @@ a:hover {
   color: black !important;
   white-space: nowrap;
   display: inline !important;
+  list-style-type: circle !important;
 }
 
 .arc li{
