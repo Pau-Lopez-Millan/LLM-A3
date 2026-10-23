@@ -119,6 +119,7 @@ body {
     font-family: Georgia, "Times New Roman", Times, serif;
     margin-bottom: 5px;
     font-size: 0.95em;
+    list-style-type: none !important;
 }
 .requadre-més{
     background-color: #4a4a4a; 
