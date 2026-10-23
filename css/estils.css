@@ -233,7 +233,7 @@ h2 {
 img {
     display: block;
     margin: 20px auto;
-    max-width: auto;
+    max-width: 100%;
     height: auto;
     text-align: center !important;
 }
@@ -343,7 +343,7 @@ a:hover {
 .columna-imatges img {
   width: 100%;
   max-width: 650px;
-  height: 800;
+  height: 800px;
   display: block;
 }
 
